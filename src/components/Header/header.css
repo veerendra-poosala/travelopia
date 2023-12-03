@@ -1,0 +1,85 @@
+
+
+.header-logo {
+    min-width: 60px;
+    width: 150px;
+    height: auto;
+}
+
+.menu-item{
+    min-height: 102px;
+    padding: 10px;
+    max-height: 102px;
+    align-items: center;
+
+}
+
+.menu-item-active{
+    cursor: pointer;
+    color: var(--color-teal);
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: var(--transition-time);
+    transition-timing-function: var(--transition-easing);
+    transition-property: color,border;
+
+}
+
+.menu-item:hover{
+    cursor: pointer;
+    color: var(--color-teal);
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: var(--transition-time);
+    transition-timing-function: var(--transition-easing);
+    transition-property: color,border;
+    border-bottom: 2px solid var(--color-teal);
+}
+
+.menu-item-call:hover{
+    cursor: pointer;
+    color: var(--color-teal);
+    transition-property: all;
+    transition-duration: var(--transition-time);
+    transition-timing-function: var(--transition-easing);
+    transition-property: color;
+
+}
+
+.call-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: var(--color-teal);
+    width: 35px;
+    height: 35px;
+    margin-right: 4px;
+    align-self: center;
+}
+
+.contact-button{
+    background-color: var(--color-teal);
+}
+.contact-button:hover{
+    background-color: var(--color-dark-teal);
+}
+
+@media (max-width: 768px) {
+    .contact-button{
+        width: 70px;
+        font-size: 12px;
+        height: 35px;
+    }
+}
+
+
+
+.mobile-menu-item:hover{
+    color: var(--color-dark-teal);
+    transition-duration: var(--transition-time);
+    transition-timing-function: var(--transition-easing);
+    transition-property: color;
+
+}
