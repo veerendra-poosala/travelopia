@@ -1,4 +1,13 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const path = require('path')
+const basePath = '/t2'
+/** @type {import('next').NextConfig} */
+
+const nextConfig = {
+  basePath,
+  images: {
+    domains: ['res.cloudinary.com'],
+  },
+}
 
 module.exports = nextConfig
