@@ -15,27 +15,27 @@ export interface menuItemType{
 export const menuItems: menuItemType[] = [
   {
    value : 'Destinations',
-   path : '/t2/destinations'
+   path : '/destinations'
   },
   {
     value : 'Activities',
-    path : '/t2/activities'
+    path : '#'
    },
    {
     value : 'Ways to Travel',
-    path : '/t2/waystotravel'
+    path : '#'
    },
    {
     value : 'Offers',
-    path : '/t2/offers'
+    path : '#'
    },
    {
     value : 'Late Getaways',
-    path : '/t2/lategetaways'
+    path : '#'
    },
    {
     value : 'Sustainable Travel',
-    path : '/t2/sustainabletravel'
+    path : '#'
   }
    
 ]

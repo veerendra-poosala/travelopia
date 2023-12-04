@@ -4,7 +4,7 @@ const basePath = '/t2'
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-  basePath,
+
   images: {
     domains: ['res.cloudinary.com'],
   },
