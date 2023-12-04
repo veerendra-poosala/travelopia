@@ -18,3 +18,5 @@ docker-compose up --build -d
 
 Open [http://localhost:3000/destinations#] with your browser to see the result.
 
+for reference please check the following loom link [https://www.loom.com/share/95d13a60d19c4792b4213daadbf6f145?sid=7926381f-7320-4ed7-9616-a07ca2f6399c]
+
